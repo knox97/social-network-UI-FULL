@@ -1,2 +1,2 @@
-# social-network-UI-FULL
+# **Social Network** Full UI
 A original theme for social network
