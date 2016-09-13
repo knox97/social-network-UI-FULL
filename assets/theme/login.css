@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url('/img/bg_final.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 0px 0px 20px #000;
+}
+h2 {
+  font-size: 3em;
+}
+::-webkit-scrollbar              {background: rgba(0,0,0,0.2) !important}
+::-webkit-scrollbar-button       {background: rgba(0,0,0,0.35)!important}
+::-webkit-scrollbar-track        {background: rgba(0,0,0,0.2)!important}
+::-webkit-scrollbar-track-piece  {background: rgba(0,0,0,0.2)!important}
+::-webkit-scrollbar-thumb        {background: rgba(234,215,1,1)!important; border-radius: 3px;}
+::-webkit-scrollbar-corner       {background: transparent!important}
+::-webkit-resizer                {background: transparent!important;}
+input[type="text"] {
+  color: #fff;
+  padding: 5px;
+  background: rgba(0,0,0,0.55);
+  height: 5%;
+  border: 1px solid #353535;
+}
+input[type="password"] {
+  color: #fff;
+  padding: 5px;
+  background: rgba(0,0,0,0.55);
+  height: 5%;
+  border: 1px solid #353535;
+}
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 100%;
+  border-bottom: 1px solid rgba(234,215,1,0.34);
+  margin: 0;
+  background: rgba(35,35,35,0.65);
+  font-family: Helvetica;
+}
+img {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 10%;
+}
+.bttn {
+  padding: 8px;
+  border: 1px solid rgba(234,215,1,0.75);
+  background: rgba(0,0,0,0.35);
+  transition: all 0.1s linear;
+  font-weight: bold;
+}
+.bttn:hover {
+  border: 1px solid rgba(234,215,1,1);
+  background: rgba(20,20,20,0.35);
+}
+.bttn:active {
+  background: rgba(0,0,0,0.85);
+}
+.login-window {
+  background: rgba(35,35,35,0.65);
+  padding: 10px;
+  border-bottom: 1px solid rgba(234,215,1,0.34);
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+#login {
+  margin-top: 30%;
+}
+label {
+  padding: 5px;
+  font-size: 1.35em;
+  font-weight: bold;
+}
+#register {
+  margin-top: 23%;
+}
+.login-window h1 {
+  font-size: 2em;
+  text-align: center;
+}

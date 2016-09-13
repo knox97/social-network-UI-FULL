@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>35M</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="assets/theme/jquery-ui.theme.css" rel="stylesheet" type="text/css">
+    <link href="assets/theme/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="assets/theme/jquery-ui.structure.css" rel="stylesheet" type="text/css">
+    <script src="assets/theme/jquery-ui.js"></script>
+    <link href="assets/theme/main.css" rel="stylesheet" type="text/css">
+    <script src="assets/theme/notifications-window.js"></script>
+</head>
+<body>
+    <!-- home page -->
+    <div class="main">
+      <!-- Left Side -->
+      <div id="left-side">
+        <a href="profile.html" class="post-creator"><img src="img/avatar.jpeg" class="post-creator"></a>
+        <a href="#" class="notifications"><img src="img/notifications.png" class="notifications"></a>
+        <a href="login.html" class="logout"><img src="img/logout.png" class="logout"></a>
+      </div>
+      <!-- Notifications window -->
+      <div class="notifications-window">
+        <div class="note-msg">
+          <div class="row">
+            <div class="note-msg-img"><img src="img/avatar.jpeg"></div>
+            <div class="note-msg-text"><p>Username liked your post</p></div>
+          </div>
+        </div>
+        <div class="note-msg">
+          <div class="row">
+            <div class="note-msg-img"><img src="img/avatar.jpeg"></div>
+            <div class="note-msg-text"><p>Username liked your post</p></div>
+          </div>
+        </div>
+        <div class="note-msg">
+          <div class="row">
+            <div class="note-msg-img"><img src="img/avatar.jpeg"></div>
+            <div class="note-msg-text"><p>Username liked your post</p></div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <!-- Right Side (Chat) -->
+      <div id="right-side">
+         <!-- Search bar -->
+        <div>
+	      <input type="text" class="search-bar-chat" placeholder="Search anything..">
+        </div>
+        <!--<div class="chat-list">
+          <div class="chat-list-item">
+            <img src="img/fb.png" height="64px" width="64px">
+          </div>
+        </div>-->
+        <iframe src="chat-list.html" class="chat-list scroll"></iframe>
+        <iframe id="chat-frame" src="chat.html" class="chat-current scroll"></iframe>
+        <textarea rows="4" class="chat-input" class="search-bar-chat" placeholder="Send message">
+</textarea>
+      </div>
+    </div>
+    
+  <!-- Content -->
+  <div class="status"><textarea rows="3" placeholder="Create a post"></textarea>
+    <button type="submit" class="bttn"><b>POST</b></button>
+  <span class="glyphicon glyphicon-camera"></span>
+  <span class="glyphicon glyphicon-upload"></span>
+  <span class="glyphicon glyphicon-picture"></span>
+  </div>
+  <div class="post space">
+    <div class="post-header">
+      <img src="img/avatar.jpeg">
+      <div class="post-header-title">
+       <span class="glyphicon glyphicon-option-vertical"></span>
+        <p class="post-header-title-user">Username</p>
+        <p class="post-header-title-date">9th September 2016 - 13:35PM</p>
+        
+      </div>
+      
+    </div>
+    <div class="post-body">
+      <p>Lorem ipsum dolor sit amet,  Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p><p>Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. </p><p>Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p>
+    </div>
+    
+    <div class="post-footer">
+      <div class="post-footer-like">
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+        <p>1,425,234</p>
+      </div>
+      <div class="post-footer-comment">
+        <span class="glyphicon glyphicon-comment"></span><p>142,523</p>
+      </div>
+      <div class="post-footer-share">
+        <span class="glyphicon glyphicon-share-alt"></span><p>65,350</p>
+      </div>
+    </div>
+  </div>
+  <div class="post space">
+    <div class="post-header">
+      <img src="img/avatar.jpeg">
+      <div class="post-header-title">
+       <span class="glyphicon glyphicon-option-vertical"></span>
+        <p class="post-header-title-user">Username</p>
+        <p class="post-header-title-date">9th September 2016 - 13:35PM</p>
+        
+      </div>
+      
+    </div>
+    <div class="post-body">
+      <p>Lorem ipsum dolor sit amet,  Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p><p>Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. </p><p>Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p>
+    </div>
+    
+    <div class="post-footer">
+      <div class="post-footer-like">
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+        <p>1,425,234</p>
+      </div>
+      <div class="post-footer-comment">
+        <span class="glyphicon glyphicon-comment"></span><p>142,523</p>
+      </div>
+      <div class="post-footer-share">
+        <span class="glyphicon glyphicon-share-alt"></span><p>65,350</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Settings Dialog -->
+  
+  <!-- UI Settings Dialog -->
+<div id="dialog" title="Settings" style="border: 1px solid rgba(35,35,35,0.75) !important;">
+  <div style="background: rgba(0,0,0,0.75) !important; position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; z-index:-10 !important;"></div>
+  <h3>Account</h3>
+    <label>Email:</label><br>
+    <input type="text" value="user@name.com"><br><br>
+    <label>Hide Email: </label>
+    <input type="checkbox"><br>
+    <label>Show My Private Photos: </label>
+    <input type="checkbox"><br>
+    
+    
+  <h3>Password</h3>
+    <button class="bttn">New Password</button>
+</div>
+  
+  
+  <!-- Offset because menu is covering the bottom -->
+  <div style="margin-bottom: 64px; padding: 0; color: rgba(0,0,0,0)">..</div>
+  
+  <!-- menu -->
+  <div class="menu">
+    <div class="row">
+      <div class="col-md-3"><div><span class="glyphicon glyphicon-home"></span></div></div>
+      <div class="col-md-3"><div><span class="glyphicon glyphicon-fire"></span></div></div>
+      <div class="col-md-3"><div><span class="glyphicon glyphicon-star"></span></div></div>
+      <div class="col-md-3" id="dialog-link"><div><span class="glyphicon glyphicon-cog"></span></div></div>
+    </div>
+  </div>
+  <script src="assets/theme/left-side.js"></script>
+  <script src="assets/theme/notifications-window.js"></script>
+  <script>
+    var element = document.getElementById("chat-frame");
+    element.scrollTop = element.scrollHeight;
+    $( "#dialog" ).dialog({
+	autoOpen: false,
+	width: 500,
+	buttons: [
+		{
+			text: "SAVE",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		},
+		{
+			text: "CANCEL",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});
+    $( "#dialog-link" ).click(function( event ) {
+      $( "#dialog" ).dialog( "open" );
+      event.preventDefault();
+    });
+    
+  </script>
+</body>
+</html>

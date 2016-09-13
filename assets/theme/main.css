@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  /*background: url('/img/bg_final.jpg') no-repeat center center fixed;*/
+  background: #992;
+  background-size: cover;
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0 30% 0 10%;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 0px 0px 20px #000;
+}
+h2 {
+  font-size: 3em;
+}
+::-webkit-scrollbar              {background: rgba(0,0,0,1) !important}
+::-webkit-scrollbar-button       {background: rgba(0,0,0,0.35)!important}
+::-webkit-scrollbar-track        {background: rgba(0,0,0,1)!important}
+::-webkit-scrollbar-track-piece  {background: rgba(0,0,0,1)!important}
+::-webkit-scrollbar-thumb        {background: rgba(234,215,1,1)!important; border-radius: 3px;}
+::-webkit-scrollbar-corner       {background: transparent!important}
+::-webkit-resizer                {background: transparent!important;}
+input[type="text"] {
+  color: #fff;
+  padding: 5px;
+  background: rgba(0,0,0,0.55);
+  height: 5%;
+  border: 1px solid #353535;
+}
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+.demoHeaders {
+  margin-top: 2em;
+}
+#dialog-link {
+  padding: .4em 1em .4em 20px;
+  text-decoration: none;
+  position: relative;
+}
+#autocomplete {
+  background: #222;
+  padding: 7px;
+  color: #fff;
+  border: 1px solid #272727;
+}
+#dialog-link span.ui-icon {
+  margin: 0 5px 0 0;
+  position: absolute;
+  left: .2em;
+  top: 50%;
+  margin-top: -8px;
+}
+#icons {
+  margin: 0;
+  padding: 0;
+}
+#icons li {
+  margin: 2px;
+  position: relative;
+  padding: 4px 0;
+  cursor: pointer;
+  float: left;
+  list-style: none;
+}
+#icons span.ui-icon {
+  float: left;
+  margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+  position: absolute;
+}
+select {
+  width: 200px;
+}
+.landing-page {
+  margin: 5vh 3vw;
+}
+.row {
+  margin: 0 !important;
+  padding: 0px !important;
+}
+.landing-page .cnt * {
+  color: #FFF;
+  text-decoration: none;
+}
+.wrap-home {
+  background: rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 36px 100px rgba(0,0,0,0.75);
+  border-radius: 0px;
+  box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.75);
+}
+#about {
+  background: #222;
+  padding: 20px;
+  margin: 0;
+}
+.cnt {
+  position: relative;
+}
+.cnt div{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+.main {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.main * {
+  margin: 0;
+  padding: 0;
+ 
+  display: block;
+  height: 100vh;
+}
+#left-side {
+  position: fixed;
+  width: 10%;
+  background: rgba(34,34,34,1);
+  left: 0;
+  top: 0;
+}
+#right-side {
+  position: fixed;
+  width: 30%;
+  background: rgba(34,34,34,1);
+  right: 0;
+  top: 0;
+}
+.menu {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #EAD703;
+  left: 10%;
+  width: 60%;
+  padding: 0;
+  background: rgba(34,34,34,1);
+}
+.menu .col-md-3 {
+  height: 64px;
+  text-align: center;
+  position: relative;
+}
+.menu .col-md-3 div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+.menu .col-md-3:hover {
+  background: rgba(155,155,10,1);
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.status {
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 14px;
+  background: rgba(34,34,34,1);
+  box-shadow: 0px 0px 4px 1px #000;
+}
+.post {
+  margin: 0;
+  padding: 0px;
+  background: rgba(34,34,34,1);
+  box-shadow: 0px 0px 4px 1px #000;
+}
+.space {
+  margin-bottom: 5.75em;
+}
+.search-bar-chat {
+  position: absolute;
+  width: 96%;
+  top: 1%;
+  right: 2%;
+  transition: all 0.5s linear;
+  border: 1px solid #111;
+}
+.search-bar-chat:focus {
+  background: rgba(0,0,0,1);
+  border: 1px solid #333;
+}
+.chat-list {
+  position:absolute;
+  top: 8%;
+  right: 2%;
+  width: 96%;
+  height: 39%;
+  
+}
+iframe {
+  border: none;
+  box-shadow: 0px -5px 12px -10px rgba(0,0,0,0.39);
+}
+#chat-frame {
+  border-top: 1px solid rgba(0,0,0,0.35);
+}
+.chat-list-item {
+  position:absolute;
+  top: 2%;
+  right: 2%;
+  width: 96%;
+  height: 39%;
+  background: rgba(234,35,142, 0.35);
+}
+.chat-current {
+  position:absolute;
+  top: 49%;
+  right: 2%;
+  width: 96%;
+  height: 39%;
+  
+}
+.chat-input {
+  position:absolute;
+  top: 89%;
+  right: 2%;
+  width: 96%;
+  height: 10%;
+  color: #fff;
+  padding: 5px;
+  background: rgba(0,0,0,0.55);
+  border: #353535;
+  resize: none; 
+}
+.post-creator {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  visibility: hidden;
+  width: 8%;
+  height: 14%;
+  border: 2px solid rgba(234,215,1,1);
+  cursor: pointer;
+}
+.notifications {
+  position: fixed;
+  top: 19%;
+  left: 3%;
+  visibility: hidden;
+  width: 4%;
+  opacity: 0.75;
+  height: 10%;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.notifications-window {
+  z-index: 5;
+  position: fixed;
+  padding: 0.6em;
+  overflow: hidden;
+  left: 10%;
+  visibility: hidden;
+  width: 40%;
+  height: 20em;
+  transition: all 0.1s linear;
+  border: 1px solid rgba(34,34,34,1);
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.95);
+}
+.notifications:hover {
+  opacity: 1;
+}
+.note-msg {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid rgba(35,35,35,0.75);
+  height: 6em;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: rgba(35,35,35,0.35);
+  transition: all 0.1s linear;
+}
+.note-msg:hover {
+  background: rgba(35,35,35,0.75);
+}
+.note-msg-img {
+  float: left;
+}
+.note-msg .row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.note-msg-img img{
+  height: 6em;
+  width: 6em;
+  float: left;
+}
+.note-msg-text {
+  float: left;
+  padding: 5px 10px;
+  word-wrap: break-word;
+}
+.logout {
+  position: fixed;
+  top: 29%;
+  left: 3%;
+  opacity: 0.75;
+  visibility: hidden;
+  width: 4%;
+  height: 10%;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.logout:hover {
+  opacity: 1;
+}
+.status textarea {
+  width: 100%;
+  color: #fff;
+  padding: 5px;
+  background: rgba(0,0,0,0.55);
+  border: #353535;
+  resize: none; 
+}
+.status span {
+  float: right;
+  color: #ddd;
+  font-size: 1.8em;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.status span:hover {
+  font-size: 1.81em;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(234,215,1,0.35);
+}
+.bttn {
+  padding: 8px;
+  border: 1px solid rgba(234,215,1,0.75);
+  background: rgba(0,0,0,0.35);
+  transition: all 0.1s linear;
+}
+.bttn:hover {
+  border: 1px solid rgba(234,215,1,1);
+  background: rgba(20,20,20,0.35);
+}
+.bttn:active {
+  background: rgba(0,0,0,0.85);
+}
+.post-header {
+  height: 5em;
+  border-bottom: 1px solid rgba(234,215,1,0.34);
+}
+.post-header img {
+  float: left;
+  width: 5em;
+  height: inherit;
+}
+.post-header span {
+  float: right;
+  font-size: 2em;
+  color: #ddd;
+  padding: 0.45em;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.post-header span:hover {
+  font-size: 2.01em;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(234,215,1,0.35);
+}
+.post-header-title-user {
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 10px;
+  margin: 0 2.5em;
+}
+.post-header-title-date {
+  font-size: 1em;
+  color: #ddd;
+  padding: 0 10px;
+  margin: 0 5em;
+}
+.post-body {
+  background: rgba(0,0,0,0.40);
+  padding: 10px;
+  border-bottom: 1px solid rgba(234,215,1,0.34);
+}
+.post-footer {
+  display: block;
+}
+.post-footer div {
+  background: rgba(34,34,34,1);
+  float: left;
+  text-align: center;
+  color: #ddd;
+  font-size: 1.5em;
+  width: 33%;
+  transition: all 0.1s linear;
+}
+.post-footer div:hover {
+  cursor: pointer;
+  color: #fff;
+  background: rgba(155,155,10,0.75);
+}
+.post-footer div span {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.3em;
+  font-weight: bold;
+}
+.post-footer div p {
+  font-size: 0.67em;
+  font-weight: bold;
+}
+.post-footer-comment {
+  width: 34% !important;
+  border-left: 1px solid rgba(0,0,0,0.2);
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+#dialog label {
+  color: #ddd;
+  font-weight: bold;
+}
+input[type="checkbox"] {
+  color: #ff0 !important;
+  background: #f00 !important;
+}
+

@@ -1,0 +1,54 @@
+.profile-template {
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(234,215,1,0.44);
+}
+.cover-photo {
+  padding-top: 12em;
+  background: url('../../img/cover.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 30%;
+  border: 10px solid rgba(34,34,34,1) !important;
+  overflow: hidden;
+  
+}
+.cover-photo .row {
+  background: rgba(0,0,0,0.35);
+}
+.profile-picture {
+  display: inline-block;
+  background: grey;
+  padding: 0;
+}
+.profile-picture img {
+  width: 100%;
+  border: 10px solid rgba(34,34,34,1);
+}
+.info {
+  position: relative;
+}
+.info .row {
+  text-align: center;
+  padding: 10px 0px !important;
+  background: rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.2);
+}
+.info .row div {
+  font-weight: bold;
+  color: #ddd;
+}
+.mid-col {
+  border-left: 1px solid rgba(220,220,220,0.35);
+  border-right: 1px solid rgba(220,220,220,0.35);
+}
+/* below the picture and username */
+.user-about {
+  background: rgba(35,35,35,0.9);
+}
+.user-about .col-md-3 {
+  padding:10px 10px 10px 20px;
+}
+.user-about .col-md-9 {
+  padding:10px;
+}
